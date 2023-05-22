@@ -1,0 +1,48 @@
+html{
+    color-scheme: dark;
+}
+#bóg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition  : ease-in-out 2s;
+        margin-top: 10rem;
+}
+#bóg:hover{
+scale: 200%;
+}
+h1{
+    font-family: "comic sans ms";
+    text-align: center;
+    animation: ease 2s;
+}
+@keyframes rainbow {
+    0% {
+      color: red;
+    }
+    14% {
+      color: orange;
+    }
+    28% {
+      color: yellow;
+    }
+    42% {
+      color: green;
+    }
+    57% {
+      color: blue;
+    }
+    71% {
+      color: indigo;
+    }
+    85% {
+      color: violet;
+    }
+    100% {
+      color: red;
+    }
+  }
+  
+  .rainbow-text {
+    animation: rainbow 1s linear infinite;
+  }
